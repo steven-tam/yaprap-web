@@ -1,24 +1,20 @@
-import GooglePlayButton from "./components/GooglePlayButton"
-import AppStoreButton from "./components/AppStoreButton";
-import HeaderBar from "./components/HeaderBar";
-import YapRapLogo from "@/assets/yaprapkeet-simple3.png";
-import Image from 'next/image';
+import HeaderBar from "@/components/HeaderBar";
+import Landing from "@/components/sections/Landing";
+import Prompts from "@/components/sections/Prompts";
+import Transcription from "@/components/sections/Transcription";
+import Modes from "@/components/sections/Modes";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <div className="flex-1 items-center justify-items-center">
+    <div className="flex-1 items-center justify-items-center justify-start">
       <HeaderBar />
-      <Image 
-        src={YapRapLogo}
-        width={200}
-        alt="YapRapLogo"
-      />
-      <div className="gap-2">
-        <AppStoreButton />
-        <GooglePlayButton />
-      </div>
+      <Landing />
+      <Modes />
+      <Transcription />
+      <Prompts />
+      <Footer />
 
-      
     </div>
   );
 }
