@@ -15,5 +15,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: 'selector' // Switches system dark mode to manual (for focusing lightmode)
 };
 export default config;

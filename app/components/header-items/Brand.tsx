@@ -13,7 +13,7 @@ function Brand() {
 
 
   return (
-    <button onClick={handleScrollToTop} className='flex flex-row items-center gap-2 m-1'>
+    <button onClick={handleScrollToTop} className='flex flex-row items-center gap-2 p-1'>
             <Image 
                 src={YapRapLogo}
                 width={50}
