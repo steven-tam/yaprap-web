@@ -26,7 +26,7 @@ function Socials() {
             height={30}
             alt="TikTok"
         />
-        <p className='hover:underline text-slate-500'>/lil_yappa</p>
+        <p className='hover:underline'>/lil_yappa</p>
       </a>
     </div>
   )

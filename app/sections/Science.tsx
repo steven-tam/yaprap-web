@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Prompts() {
+function Science() {
   return (
     <div className="flex items-center justify-center border-2 w-full" >
-      Prompts
+        Science
     </div>
   )
 }
 
-export default Prompts
+export default Science
