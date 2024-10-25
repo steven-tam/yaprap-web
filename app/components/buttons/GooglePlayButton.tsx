@@ -7,11 +7,11 @@ function GooglePlayButton() {
     const APKUrl = "https://play.google.com/store/apps/details?id=host";
 
   return (
-    <div className="m">
+    <div className="">
       <a href={APKUrl} target="_blank">
           <Image
           src={GooglePlayIcon}
-          width={200}
+          width={210}
           alt="Picture of the author"
         />
       </a>

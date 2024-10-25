@@ -2,7 +2,7 @@ import React from 'react'
 
 function Modes() {
   return (
-    <div>
+    <div className="flex items-center justify-center border-2 w-full" >
       Modes
     </div>
   )

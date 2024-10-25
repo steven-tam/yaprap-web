@@ -10,7 +10,7 @@ function AppStoreButton() {
       <a href={iosURL} target="_blank" className='h-2'>
           <Image
           src={AppStoreIcon}
-          width={200}
+          width={210}
           alt="Picture of the author"
         />
       </a>
