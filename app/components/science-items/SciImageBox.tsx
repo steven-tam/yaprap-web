@@ -1,7 +1,6 @@
 'use client'
 import React, { useRef } from 'react'
 import { useScroll, motion, useTransform } from 'framer-motion'
-import Image from 'next/image'
 
 function SciImageBox() {
     const ref = useRef<HTMLDivElement>(null)
@@ -18,7 +17,6 @@ function SciImageBox() {
         style={{ opacity: opacityProgress }} 
         className="flex items-center border-2 w-full h-96" 
         >
-        {/* <Image /> */}
       </motion.div>
     )
 }
