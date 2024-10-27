@@ -1,9 +1,12 @@
 import React from 'react'
+import ModeTextBox from '@/components/mode-items/ModeTextBox'
+import Carousel from '@/components/mode-items/Carousel'
 
 function Modes() {
   return (
-    <div className="flex items-center justify-center border-2 w-full h-96" >
-      Modes
+    <div className="flex flex-col items-center justify-center border-2 border-b-0 w-full p-10 gap-10" >
+      <ModeTextBox />
+      <Carousel />
     </div>
   )
 }

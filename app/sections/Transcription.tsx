@@ -1,9 +1,12 @@
 import React from 'react'
+import TranscriptionTextBox from '@/components/transcription-items/TranscriptionTextBox'
+import TranscriptionTypewriter from '@/components/transcription-items/TranscripionTypewriter'
 
 function Transcription() {
   return (
-    <div className="flex items-center justify-center border-2 w-full h-96" >
-      free transcription, up to 98.5% accuracy, on your recordings
+    <div className="flex flex-col items-center justify-center border-2 border-b-0 w-full h-96 gap-10" >
+      <TranscriptionTextBox />
+      <TranscriptionTypewriter />
     </div>
   )
 }
