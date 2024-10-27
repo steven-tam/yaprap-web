@@ -8,7 +8,7 @@ function TranscriptionTextBox() {
                 Free Transcription
             </span>
         </h1>
-        <p className="text-gray-500 p-1">Get up to 98.5% accuracy on any your recordings with our AI-powered transcriber derived from OpenAI Whisper for bleeding edge performance</p>
+        <p className="text-gray-500 p-1">Get any of your recordings transcribed with up to 98.5% accuracy with our AI-powered transcriber derived from OpenAI Whisper for top tier performance</p>
     </div>
   )
 }
