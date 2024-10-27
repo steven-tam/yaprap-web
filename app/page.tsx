@@ -11,10 +11,10 @@ export default function Home() {
     <div className="flex-1 items-center justify-items-center">
       <HeaderBar />
       <Landing />
-      <Science />
       <HowItWorks />
       <Modes />
       <Transcription />
+      <Science />
       <Footer />
 
     </div>

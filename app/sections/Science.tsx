@@ -1,5 +1,5 @@
 import React from 'react'
-import SciTextBox from '@/components/SciTextBox'
+import SciTextBox from '@/app/components/science-items/SciTextBox'
 
 function Science() {
   return (
