@@ -10,7 +10,7 @@ function YapImage() {
         target: ref,
         offset: ["0 1", "1.33 1"] // ["start end", "end end"]
     });
-    const translateXProgress = useTransform(scrollYProgress, [0, 0.6], [-70, 0]); // Moves from -70px right to 0
+    const translateXProgress = useTransform(scrollYProgress, [0, 0.8], [-50, 0]); // Moves from -70px right to 0
     const opacityProgress = useTransform(scrollYProgress, [0, 0.9], [0, 1]);
 
     return (
