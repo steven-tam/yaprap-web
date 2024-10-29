@@ -11,7 +11,7 @@ function HowTextBox() {
               How it Works
             </span>
           </h1>
-          <p className="text-gray-500 p-1">Our system is simple, flexible, and powerful</p>
+          <p className="text-gray-500 p-1">Our system is <span className="font-bold">simple</span>, <span className="font-bold">flexible</span>, and <span className="font-bold">powerful</span></p>
         </div>
         <div className="w-full relative mb-16">
           {/* Centered dotted vertical line */}

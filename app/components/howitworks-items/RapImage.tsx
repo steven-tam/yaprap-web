@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import { useScroll, motion, useTransform } from 'framer-motion'
 import Image from 'next/image'
-import RapMockup from '@/assets/yaprap-mockup.svg'
+import RapMockup from '@/assets/rapMockup.svg'
 
 function RapImage() {
     const ref = useRef<HTMLDivElement>(null)

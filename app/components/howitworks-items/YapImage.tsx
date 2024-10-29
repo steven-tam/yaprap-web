@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import { useScroll, motion, useTransform } from 'framer-motion'
 import Image from 'next/image'
-import YapMockup from '@/assets/yaprap-mockup.svg'
+import YapMockup from '@/assets/yapMockup.svg'
 
 function YapImage() {
     const ref = useRef<HTMLDivElement>(null)

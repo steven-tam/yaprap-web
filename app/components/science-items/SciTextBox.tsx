@@ -22,7 +22,7 @@ function SciTextBox() {
             Backed by Science
           </span>
         </h1>
-        <p className="text-gray-500 p-1">We have done extensive research on communication and creativity so you don&apos;t have to</p>
+        <p className="text-gray-500 p-1">We&apos;ve done extensive research on <span className="font-bold">communication</span> and <span className="font-bold">creativity</span> so you don&apos;t have to</p>
       </motion.div>
     )
 }
