@@ -4,7 +4,7 @@ import GooglePlayIcon from '@/assets/google-play-badge-logo.svg'
 import Image from 'next/image';
 
 function GooglePlayButton() {
-    const APKUrl = "https://play.google.com/store/apps/details?id=host";
+    const APKUrl = "https://play.google.com/store/apps/details?id=com.YapRap.frontend";
 
   return (
     <div className="">
