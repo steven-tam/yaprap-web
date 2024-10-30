@@ -4,8 +4,8 @@ import YapImage from './YapImage'
 
 function HowTextBox() {
     return (
-      <div className="flex flex-col items-center p-4 text-center gap-72">
-        <div className='gap-11'>
+      <div className="flex flex-col items-center p-4 text-center gap-20">
+        <div className='gap-11 md:h-fit h-screen'>
           <h1 className="text-5xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
               How it Works
@@ -16,8 +16,8 @@ function HowTextBox() {
         <div className="w-full relative mb-16">
           {/* Centered dotted vertical line */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-0 md:border-l-2 h-[65rem] border-dotted border-gray-300"></div>
-          <div className='p-0 md:mr-[30rem] mb-60 md:mb-0'>
-            <h1 className="text-5xl font-bold mb-10">
+          <div className='p-0 md:mr-[30rem] md:mb-0 mb-96'>
+            <h1 className="text-4xl font-bold mb-10">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
                 First you Yap
               </span>
@@ -25,8 +25,8 @@ function HowTextBox() {
             <YapImage />
           </div>
 
-          <div className='p-0 pt-10 md:ml-[30rem] border-'>
-            <h1 className="text-5xl font-bold mb-10">
+          <div className='p-0 pt-10 md:ml-[30rem]'>
+            <h1 className="text-4xl font-bold mb-10">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
                   Then, you Rap
                 </span>
