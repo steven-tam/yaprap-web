@@ -1,9 +1,9 @@
 import React from 'react'
-import TongueTwisterIcon from '@/assets/tongue-twister.png'
-import StoryTellingIcon from '@/assets/story-book.png'
-import ZebraIcon from '@/assets/zebra.png'
-import YappingIcon from '@/assets/yapping-logo3.png'
-import RappingIcon from '@/assets/rapping-logo2.png'
+import TongueTwisterIcon from '@/assets/tongue-twister-icon.svg'
+import StoryTellingIcon from '@/assets/book-icon.svg'
+import ZebraIcon from '@/assets/zebra-icon.svg'
+import YappingIcon from '@/assets/yapping-icon.svg'
+import RappingIcon from '@/assets/rapping-icon.svg'
 import ModeBox from '../ModeBox'
 
 const modeData = [

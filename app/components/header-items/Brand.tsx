@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import YapRapLogo from '@/assets/yaprapkeet-simple3.png'
+import YapRapLogo from '@/assets/yaprap-logo-bone.svg'
 
 function Brand() {
     const handleScrollToTop = () => {
