@@ -8,7 +8,7 @@ function SciTextBox() {
         target: ref,
         offset: ["0 1", "1.33 1"] // ["start end", "end end"]
     });
-    const scaleProgress = useTransform(scrollYProgress, [0, .6], [0.2, 1]); // Moves from 50px right to 0
+    const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.2, 1]); // Moves from 50px right to 0
     const opacityProgress = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
     return (
