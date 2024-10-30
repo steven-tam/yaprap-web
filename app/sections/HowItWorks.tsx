@@ -3,7 +3,7 @@ import HowTextBox from '@/components/howitworks-items/HowTextBox'
 
 function HowItWorks() {
   return (
-    <div className="flex items-center justify-evenly flex-col border-2 border-b-0 w-full p-6 gap-96 md:gap-40" >
+    <div className="flex items-center justify-evenly flex-col border-2 border-b-0 w-full p-6 gap-96" >
       <HowTextBox />
     </div>
   )

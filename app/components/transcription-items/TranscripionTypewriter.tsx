@@ -14,7 +14,7 @@ function TranscriptionTypewriter() {
             cursorStyle='_'
             typeSpeed={40}
             deleteSpeed={50}
-            delaySpeed={1500}
+            delaySpeed={1000}
           />
         </span>
     </div>
