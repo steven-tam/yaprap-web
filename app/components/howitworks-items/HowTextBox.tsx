@@ -5,7 +5,7 @@ import YapImage from './YapImage'
 function HowTextBox() {
     return (
       <div className="flex flex-col items-center p-4 text-center gap-20">
-        <div className='gap-11 md:h-fit h-screen'>
+        <div className='flex flex-col md:h-fit h-screen justify-center'>
           <h1 className="text-5xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
               How it Works
