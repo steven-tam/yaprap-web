@@ -11,7 +11,7 @@ function HowTextBox() {
               How it Works
             </span>
           </h1>
-          <p className="text-gray-500 p-1 text-lg">Our system is <span className="font-bold">simple</span>, <span className="font-bold">flexible</span>, and <span className="font-bold">powerful</span></p>
+          <p className="text-gray-500 p-1 text-2xl">Our system is <span className="font-bold">simple</span>, <span className="font-bold">flexible</span>, and <span className="font-bold">powerful</span></p>
         </div>
         <div className="w-full relative mb-16">
           {/* Centered dotted vertical line */}
@@ -19,7 +19,7 @@ function HowTextBox() {
           <div className='p-0 md:mr-[30rem] md:mb-0 mb-96'>
             <h1 className="text-4xl font-bold mb-10">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
-                First you Yap
+                First You Yap
               </span>
             </h1>
             <YapImage />
@@ -28,7 +28,7 @@ function HowTextBox() {
           <div className='p-0 pt-10 md:ml-[30rem]'>
             <h1 className="text-4xl font-bold mb-10">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
-                  Then, you Rap
+                  Then, You Rap
                 </span>
             </h1>
             <RapImage />

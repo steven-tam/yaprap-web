@@ -13,7 +13,7 @@ const fadeInAnimationVariant = {
     x: 0,
     opacity: 1,
     transition:{
-      duration: 0.5
+      duration: 1.3,
     }
   }
 }
@@ -25,9 +25,9 @@ function RapImage() {
         variants={fadeInAnimationVariant}
         initial="initial"
         whileInView="animate"
-        className="flex items-center justify-center w-full h-96 gap-10 " 
+        className="flex items-center justify-center w-full h-96" 
         >
-        <div className='flex flex-col items-center text-center gap-5'>
+        <div className='flex flex-col items-center text-center'>
           <Image src={RapMockup} height={400} alt='Home Page' />
         </div>
     
