@@ -28,7 +28,7 @@ function RapImage() {
         className="flex items-center justify-center w-full h-96" 
         >
         <div className='flex flex-col items-center text-center'>
-          <Image src={RapMockup} height={400} alt='Home Page' />
+          <Image src={RapMockup} style={{ width: '200px', height: 'auto' }} alt='Home Page' />
         </div>
     
       </motion.div>

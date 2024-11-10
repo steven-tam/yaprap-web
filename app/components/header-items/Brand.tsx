@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import YapRapLogo from '@/assets/yaprap-logo-bone.svg'
+import Name from './Name'
 
 function Brand() {
     const handleScrollToTop = () => {
@@ -9,17 +10,16 @@ function Brand() {
             top: 0,
             behavior: 'smooth', // Enables smooth scrolling
         });
-        };
-
+    };
 
   return (
-    <button onClick={handleScrollToTop} className='flex flex-row items-center gap-2 p-1'>
+    <button onClick={handleScrollToTop} className='flex flex-row items-center gap-3 p-1'>
             <Image 
                 src={YapRapLogo}
-                width={50}
+                style={{ width: '50px', height: 'auto' }}
                 alt="YapRapLogo"
             />
-        <h1 className='text-4xl font-bold'>YapRap</h1>
+            <Name />
     </button>
   )
 }
