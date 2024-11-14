@@ -7,11 +7,9 @@ import YapMockup from '@/assets/yapMockup.svg'
 const fadeInAnimationVariant = {
   initial: {
     x: -50, 
-    opacity: 0,
   },
   animate: {
     x: 0,
-    opacity: 1,
     transition:{
       duration: 1.3
     }
@@ -28,7 +26,7 @@ function YapImage() {
         className="flex items-center justify-center w-full h-96" 
         >
         <div className='flex flex-col items-center text-center'>
-          <Image src={YapMockup} style={{ width: '200px', height: 'auto' }} alt='Home Page' />
+          <Image src={YapMockup} style={{ width: '210px', height: 'auto' }} alt='Home Page' />
         </div>
     
       </motion.div>

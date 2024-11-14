@@ -1,20 +1,28 @@
 'use client'
-import React, { useRef } from 'react'
-import { useScroll, motion, useTransform } from 'framer-motion'
+import React from 'react'
+import { motion } from 'framer-motion'
+
+const fadeInAnimationVariant = {
+  initial: {
+    scale: 0.9, 
+    opacity: 0,
+  },
+  animate: {
+    scale: 1,
+    opacity: 1,
+    transition:{
+      duration: 0.4
+    }
+  }
+}
 
 function SciTextBox() {
-    const ref = useRef<HTMLDivElement>(null)
-    const {scrollYProgress} = useScroll({
-        target: ref,
-        offset: ["0 1", "1.33 1"] // ["start end", "end end"]
-    });
-    const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.2, 1]); // Moves from 50px right to 0
-    const opacityProgress = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
     return (
       <motion.div 
-        ref={ref} 
-        style={{ scale: scaleProgress, opacity: opacityProgress }} 
+        variants={fadeInAnimationVariant}
+        initial="initial"
+        whileInView="animate"
         className="flex flex-col items-center p-10 text-center" 
         >
         <h1 className="text-5xl font-bold">
