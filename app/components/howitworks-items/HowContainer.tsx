@@ -21,7 +21,7 @@ const fadeInAnimationVariant = {
 
 function HowText() {
   return (
-    <div className='flex flex-col md:h-fit h-screen justify-center gap-28 p-10 pb-32'>
+    <div className='flex flex-col md:h-fit h-screen justify-center gap-20 p-10 border-2 pb-32'>
       <motion.div 
           variants={fadeInAnimationVariant}
           initial="initial"
