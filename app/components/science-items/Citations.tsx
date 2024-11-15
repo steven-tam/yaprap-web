@@ -24,7 +24,7 @@ function Citations() {
   return (
     <div className="mt-4 flex flex-col items-center">
       <details className='text-center'>
-        <summary className="text-3xl hover:underline font-semibold cursor-pointer">View Citations</summary>
+        <summary className="text-3xl hover:underline font-semibold cursor-pointer text-gray-400">View Citations</summary>
         <div className="mt-4 text-start p-10">
           <ul className="list-disc pl-5 text-gray-500">
             {citations.map((citation, index) => (

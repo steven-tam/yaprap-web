@@ -8,7 +8,7 @@ function TranscriptionTypewriter() {
     <div className='text-lg text-blue'>
       <span style={{ fontSize: 30, fontWeight:'semibold'}}>
         <Typewriter
-            words={['Free', 'Fun', 'Effective', 'Freestyle!']}
+            words={['Free', 'Fun', 'Effective', 'Freestyle']}
             loop={0}
             cursor
             cursorStyle='_'

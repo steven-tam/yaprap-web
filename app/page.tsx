@@ -5,6 +5,7 @@ import Modes from "@/sections/Modes";
 import Footer from "@/sections/Footer";
 import HowItWorks from "./sections/HowItWorks";
 import Science from "./sections/Science";
+import Display from "./sections/Display";
 
 export const metadata = {
   title: "YapRap - Learn Freestyle",
@@ -26,6 +27,7 @@ export default function Home() {
       <HeaderBar />
       <Landing />
       <HowItWorks />
+      <Display />
       <Modes />
       <Transcription />
       <Science />

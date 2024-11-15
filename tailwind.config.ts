@@ -12,7 +12,8 @@ const config: Config = {
         // background: "var(--background)",
         // foreground: "var(--foreground)",
         peach: "#FCE9BE",
-        strongpeach: "#FECF01"
+        strongpeach: "#FECF01",
+        mildblack: "#273036"
       },
     },
   },

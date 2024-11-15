@@ -8,7 +8,7 @@ const chicle = Chicle({
 
 function Name() {
   return (
-    <h1 className={`text-5xl font-bold ${chicle.className}`}>YapRap</h1>
+    <h1 className={`text-5xl font-bold text-mildblack ${chicle.className}`}>YapRap</h1>
   )
 }
 

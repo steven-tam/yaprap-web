@@ -24,6 +24,7 @@ function YapImage() {
         initial="initial"
         whileInView="animate"
         className="flex items-center justify-center w-full h-96" 
+        viewport={{ once: true }} // Ensures it only runs once
         >
         <div className='flex flex-col items-center text-center'>
           <Image src={YapMockup} style={{ width: '210px', height: 'auto' }} alt='Home Page' />

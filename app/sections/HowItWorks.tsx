@@ -1,10 +1,15 @@
 import React from 'react'
-import HowTextBox from '@/components/howitworks-items/HowTextBox'
+import HowContainer from '@/components/howitworks-items/HowContainer'
+import Image from 'next/image'
+import Wave from '@/assets/wave.svg'
 
 function HowItWorks() {
   return (
-    <div className="flex items-center justify-evenly flex-col w-full p-6 gap-96" >
-      <HowTextBox />
+    <div className="flex flex-col w-full items-center justify-center" >
+      <Image src={Wave} className='w-full' alt='Waves' />
+      <div className='flex bg-mildblack w-full items-center justify-center h-[55rem]'>
+        <HowContainer />
+      </div>
     </div>
   )
 }

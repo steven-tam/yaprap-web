@@ -3,7 +3,7 @@ import Socials from "@/components/Socials";
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center bg-peach p-6 w-full" >
+    <div className="flex flex-col items-center justify-center p-6 w-full" >
       <Socials />
       <div className='flex flex-row gap-5 text-md'>
         <p className='text-gray-400'>© 2024 YapRap, LLC</p>

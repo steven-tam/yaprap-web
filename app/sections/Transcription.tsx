@@ -4,7 +4,7 @@ import TranscriptionTypewriter from '@/components/transcription-items/Transcripi
 
 function Transcription() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen md:h-96 gap-10" >
+    <div className="flex flex-col items-center justify-center w-full h-[50rem] gap-10" >
       <TranscriptionTextBox />
       <TranscriptionTypewriter />
     </div>

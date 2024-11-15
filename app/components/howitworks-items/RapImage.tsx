@@ -6,12 +6,12 @@ import RapMockup from '@/assets/rapMockup.svg'
 
 const fadeInAnimationVariant = {
   initial: {
-    x: 50, 
+    x: 40, 
   },
   animate: {
     x: 0,
     transition:{
-      duration: 1.2,
+      duration: 1.3,
     }
   }
 }
@@ -24,6 +24,7 @@ function RapImage() {
         initial="initial"
         whileInView="animate"
         className="flex items-center justify-center w-full h-96" 
+        viewport={{ once: true }} // Ensures it only runs once
         >
         <div className='flex flex-col items-center text-center'>
           <Image src={RapMockup} style={{ width: '210px', height: 'auto' }} alt='Home Page' />

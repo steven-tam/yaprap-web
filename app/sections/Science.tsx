@@ -4,10 +4,11 @@ import Citations from '@/components/science-items/Citations'
 
 function Science() {
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-screen" >
-        <SciTextBox />
-        <Citations />
+    <div className="flex flex-col items-center justify-center w-full min-h-[50rem] bg-mildblack" >
+      <SciTextBox />
+      <Citations />
     </div>
+  
   )
 }
 
