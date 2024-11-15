@@ -12,7 +12,7 @@ function GooglePlayButton() {
           <Image
           src={GooglePlayIcon}
           width={210}
-          alt="Picture of the author"
+          alt="Download on Android"
         />
       </a>
 

@@ -7,7 +7,7 @@ function HowItWorks() {
   return (
     <div className="flex flex-col w-full items-center justify-center" >
       <Image src={Wave} className='w-full' alt='Waves' />
-      <div className='flex bg-mildblack w-full items-center justify-center h-[55rem]'>
+      <div className='flex bg-mildblack w-full items-center justify-center min-h-[55rem]'>
         <HowContainer />
       </div>
     </div>

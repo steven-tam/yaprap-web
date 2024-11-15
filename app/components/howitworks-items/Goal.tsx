@@ -2,8 +2,8 @@ import React from 'react'
 
 function Goal() {
   return (
-    <div className='border-2 p-10 rounded-3xl text-xl md:text-2xl font-bold text-center shadow-md bg-white'>
-        <p className='pb-2'>Recommended Plan:</p>
+    <div className='border-2 p-4 md:p-10 rounded-3xl text-xl md:text-2xl font-bold text-center shadow-md bg-white'>
+        <p className='pb-2'>Recommended Routine:</p>
         <div className='pb-2'>
             <div className='flex justify-between'>
                 <p>+ 1 Tongue Twister</p>

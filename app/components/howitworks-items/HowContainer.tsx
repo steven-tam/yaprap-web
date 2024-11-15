@@ -14,14 +14,14 @@ const fadeInAnimationVariant = {
     y: 0,
     opacity: 1,
     transition:{
-      duration: 0.3
+      duration: 0.6
     }
   }
 }
 
 function HowText() {
   return (
-    <div className='flex flex-col md:h-fit h-screen justify-center gap-16 p-10 pt-0'>
+    <div className='flex flex-col md:h-fit h-screen justify-center gap-16 p-10 pb-32'>
       <motion.div 
           variants={fadeInAnimationVariant}
           initial="initial"

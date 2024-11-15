@@ -4,7 +4,7 @@ import Citations from '@/components/science-items/Citations'
 
 function Science() {
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-[50rem] bg-mildblack" >
+    <div className="flex flex-col items-center w-full min-h-[50rem] bg-mildblack" >
       <SciTextBox />
       <Citations />
     </div>

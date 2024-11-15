@@ -2,8 +2,8 @@ import React from 'react'
 
 function SimpleGoal() {
   return (
-    <div className='border-2 p-10 rounded-3xl text-lg md:text-2xl font-bold text-center bg-white shadow-md'>
-        <p className='pb-2'>Flex Plan:</p>
+    <div className='border-2 p-4 md:p-10 rounded-3xl text-lg md:text-2xl font-bold text-center bg-white shadow-md'>
+        <p className='pb-2'>Flex Routine:</p>
         <div className='pb-2'>
             <div className='flex justify-between'>
                 <p>+ 1 Yapping</p>

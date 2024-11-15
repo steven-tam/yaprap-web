@@ -11,7 +11,7 @@ function AppStoreButton() {
           <Image
           src={AppStoreIcon}
           width={210}
-          alt="Picture of the author"
+          alt="Download on IOS"
         />
       </a>
     </div>
