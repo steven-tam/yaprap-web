@@ -12,9 +12,9 @@ function TranscriptionTypewriter() {
             loop={0}
             cursor
             cursorStyle='_'
-            typeSpeed={40}
+            typeSpeed={60}
             deleteSpeed={50}
-            delaySpeed={1000}
+            delaySpeed={800}
           />
         </span>
     </div>

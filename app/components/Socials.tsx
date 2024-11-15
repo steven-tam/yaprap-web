@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function Socials() {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row text-gray-300'>
       <a href='' className='flex flex-row items-center justify-center'>
         <Image src={YoutubeIcon} 
             height={30}

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { motion } from 'framer-motion'
+import { delay, motion } from 'framer-motion'
 import Goal from './Goal'
 import SimpleGoal from './SimpleGoal'
 import HowTitle from './HowTitle'
@@ -14,14 +14,14 @@ const fadeInAnimationVariant = {
     y: 0,
     opacity: 1,
     transition:{
-      duration: 0.6
+      duration: 0.6,
     }
   }
 }
 
 function HowText() {
   return (
-    <div className='flex flex-col md:h-fit h-screen justify-center gap-16 p-10 pb-32'>
+    <div className='flex flex-col md:h-fit h-screen justify-center gap-28 p-10 pb-32'>
       <motion.div 
           variants={fadeInAnimationVariant}
           initial="initial"

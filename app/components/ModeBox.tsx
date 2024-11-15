@@ -8,7 +8,7 @@ interface ModeBoxProps {
 }
 function ModeBox({src, name, description}: ModeBoxProps) {
   return (
-    <div className="flex flex-col group relative h-48 aspect-square items-center justify-center text-center border-2 rounded-2xl overflow-hidden shadow-lg bg-white">
+    <div className="flex flex-col group relative h-48 aspect-square items-center justify-center text-center border-8 rounded-2xl overflow-hidden shadow-lg bg-white">
         <Image 
           src={src}
           alt={name}
