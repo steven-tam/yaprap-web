@@ -2,7 +2,7 @@ import React from 'react'
 
 function DisplayText() {
   return (
-    <div className='text-center w-11/12 mt-20'>
+    <div className='text-center mt-16 p-4'>
         <h1 className="text-5xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
                 free. fun. effective. 
