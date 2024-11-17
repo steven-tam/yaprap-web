@@ -20,7 +20,7 @@ const fadeInAnimationVariant = {
 
 function Display() {
     return (
-      <div className='flex flex-col items-center text-center w-full border-2'>
+      <div className='flex flex-col items-center text-center w-full'>
         <motion.div
           variants={fadeInAnimationVariant}
           initial="initial"

@@ -21,23 +21,25 @@ const fadeInAnimationVariant = {
 function Science() {
   return (
     <div className="flex flex-col items-center w-full min-h-[50rem] bg-mildblack" >
-    <motion.div 
-      variants={fadeInAnimationVariant}
-      initial='initial'
-      whileInView='animate'
-      viewport={{ once: true }}
-    >
-      <SciTextBox />
-    </motion.div>
+      <div className='pt-64'>
+        <motion.div 
+          variants={fadeInAnimationVariant}
+          initial='initial'
+          whileInView='animate'
+          viewport={{ once: true }}
+        >
+          <SciTextBox />
+        </motion.div>
+      </div>
     
-    <motion.div 
-      variants={fadeInAnimationVariant}
-      initial='initial'
-      whileInView='animate'
-      viewport={{ once: true }}
-    >
-      <Citations />
-    </motion.div>
+      <motion.div 
+        variants={fadeInAnimationVariant}
+        initial='initial'
+        whileInView='animate'
+        viewport={{ once: true }}
+      >
+        <Citations />
+      </motion.div>
     </div>
   
   )
