@@ -1,5 +1,5 @@
 import React from 'react'
-import Brand from './Brand'
+import Brand from './BrandButton'
 
 function DefaultHeader() {
   return (
