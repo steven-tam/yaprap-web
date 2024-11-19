@@ -13,8 +13,13 @@ function DownloadButton() {
         }
       }
   return (
-    <button onClick={handleDownload} className="bg-amber-300 hover:bg-amber-200 text-white font-bold h-[4rem] px-4 rounded-2xl">
-        <p className='text-2xl'>Get Started</p>
+    <button onClick={handleDownload} className='h-[3rem] px-4 bg-amber-300 rounded-xl cursor-pointer select-none
+    active:translate-y-2  active:[box-shadow:0_0px_0_0_#fbbf24,0_0px_0_0_#fbbf24]
+    active:border-b-[0px]
+    transition-all duration-150 [box-shadow:0_4px_0_0_#fbbf24]
+    border-b-[1px] border-amber-400
+  '>
+        <p className='text-2xl text-white font-bold'>Get Started</p>
     </button>
   )
 }

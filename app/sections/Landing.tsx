@@ -1,5 +1,4 @@
-import GooglePlayButton from "@/components/buttons/GooglePlayButton"
-import AppStoreButton from "@/components/buttons/AppStoreButton";
+import ButtonContainer from "../components/buttons/ButtonContainer";
 
 function Landing() {
   // justify-center and items-center requires the tag have the flex property
@@ -15,10 +14,7 @@ function Landing() {
             <p className="text-gray-500 p-1 text-2xl">We give you <span className="font-bold">everything</span> you need to learn and master freestyle</p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center md:space-y-0 md:space-x-4">
-            <AppStoreButton />
-            <GooglePlayButton />
-        </div>
+        <ButtonContainer />
   </div>
 
   )
