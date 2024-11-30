@@ -36,7 +36,6 @@ function Modes() {
         initial='initial'
         whileInView='animate'
         viewport={{once: true}}
-        className='w-2/3'
       >
         <Carousel />
       </motion.div>

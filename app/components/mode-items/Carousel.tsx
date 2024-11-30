@@ -41,9 +41,8 @@ const modeData = [
 ]
 
 function Carousel() {
-
     return (
-        <ul className='flex flex-wrap gap-2 items-center justify-center'>
+        <ul className='flex flex-wrap gap-2 items-center justify-center max-w-2xl'>
             {modeData.map((mode) =>(
                 <li key={mode.id}>
                     <ModeBox src={mode.imageSrc} name={mode.name} description={mode.description} />
