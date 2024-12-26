@@ -29,7 +29,6 @@ function HowText() {
           viewport={{ once: true }} // Ensures it only runs once
       >
         <HowTitle />
-
       </motion.div>
       <motion.div 
           variants={fadeInAnimationVariant}

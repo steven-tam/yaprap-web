@@ -1,23 +1,35 @@
 'use client'
 import React from 'react'
-import { Typewriter } from 'react-simple-typewriter'
+import transcript from '@/assets/transcript-sc.svg'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
+
+const fadeInAnimationVariant = {
+  initial: {
+    y: 60, 
+    opacity: 0,
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: 0.6,
+    }
+  }
+}
 
 
 function TranscriptionTypewriter() {
   return (
-    <div className='text-lg text-blue'>
-      <span style={{ fontSize: 30, fontWeight:'semibold'}}>
-        <Typewriter
-            words={['Free', 'Fun', 'Effective', 'Freestyle']}
-            loop={0}
-            cursor
-            cursorStyle='_'
-            typeSpeed={60}
-            deleteSpeed={50}
-            delaySpeed={800}
-          />
-        </span>
-    </div>
+    <motion.div 
+      variants={fadeInAnimationVariant}
+      initial="initial"
+      whileInView="animate"
+      className='text-lg text-blue'
+      viewport={{ once: true }} // Ensures it only runs once
+    >
+      <Image src={transcript} style={{ width: '210px', height: 'auto' }} alt='Home Page' /> 
+    </motion.div>
   )
 }
 

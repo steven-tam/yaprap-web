@@ -11,7 +11,7 @@ function Landing() {
                 Free, fun, and effective freestyle
               </span>
             </h1>
-            <p className="text-gray-500 p-1 text-2xl">We give you <span className="font-bold">everything</span> you need to learn and master freestyle</p>
+            <p className="text-gray-500 p-1 text-2xl">We give you <span className="font-bold">everything</span> you need to learn and master improv and freestyle</p>
           </div>
         </div>
         <ButtonContainer />

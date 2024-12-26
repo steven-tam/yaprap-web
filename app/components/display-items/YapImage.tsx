@@ -2,14 +2,14 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import YapMockup from '@/assets/yapMockup.svg'
+import YapMockup from '@/assets/yapping-sc.svg'
 
 const fadeInAnimationVariant = {
   initial: {
-    x: -50, 
+    y: 40, 
   },
   animate: {
-    x: 0,
+    y: 0,
     transition:{
       duration: 1.3
     }

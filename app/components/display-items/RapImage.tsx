@@ -2,14 +2,14 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import RapMockup from '@/assets/rapMockup.svg'
+import RapMockup from '@/assets/rapping-sc.svg'
 
 const fadeInAnimationVariant = {
   initial: {
-    x: 40, 
+    y: 40, 
   },
   animate: {
-    x: 0,
+    y: 0,
     transition:{
       duration: 1.3,
     }
