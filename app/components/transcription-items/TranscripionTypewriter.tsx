@@ -28,7 +28,7 @@ function TranscriptionTypewriter() {
       className='text-lg text-blue'
       viewport={{ once: true }} // Ensures it only runs once
     >
-      <Image src={transcript} style={{ width: '210px', height: 'auto' }} alt='Home Page' /> 
+      <Image src={transcript} style={{ width: 300, height: 'auto' }} alt='Home Page' /> 
     </motion.div>
   )
 }

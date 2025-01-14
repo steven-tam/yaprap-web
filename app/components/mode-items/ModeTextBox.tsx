@@ -8,7 +8,12 @@ function ModeTextBox() {
                 five different modes to choose from
             </span>
         </h1>
-        <p className="text-gray-300 p-1 text-2xl">Not a fan of freestyling? We got you covered. <span className="font-bold">Unlock your creativity</span> and <span className="font-bold">practice communication</span> with all of our modes</p>
+        <p className="text-gray-300 p-1 text-2xl">
+          <span className="font-bold">Unlock your creativity</span>, 
+          <span className="font-bold"> practice</span>, and
+          <span className="font-bold"> target specific areas</span> of your communication with all of our modes.
+        </p>
+
     </div>
   )
 }

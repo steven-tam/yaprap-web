@@ -20,7 +20,7 @@ const fadeInAnimationVariant = {
 
 function Transcription() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-[50rem] gap-10" >
+    <div className="flex flex-col items-center justify-center w-full min-h-screen gap-10 py-20" >
       <motion.div
         variants={fadeInAnimationVariant}
         initial='initial'

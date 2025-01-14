@@ -9,7 +9,7 @@ function DownloadButton() {
           window.location.href = 'https://play.google.com/store/apps/details?id=com.YapRap.frontend';
         }
         else if (platform == 'ios'){
-          window.location.href = 'https://apple.com';
+          window.location.href = 'https://apps.apple.com/us/app/yaprap-learn-freestyle/id6737922268?platform=iphone';
         }
       }
   return (

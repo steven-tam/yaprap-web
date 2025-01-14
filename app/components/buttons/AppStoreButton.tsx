@@ -3,7 +3,7 @@ import AppStoreIcon from '@/assets/app-store-badge-logo.svg'
 import Image from 'next/image';
 
 function AppStoreButton() {
-  const iosURL = "https://apps.apple.com/us/app/your-app-name/id1234567890";
+  const iosURL = "https://apps.apple.com/us/app/yaprap-learn-freestyle/id6737922268?platform=iphone";
 
   return (
     <div className='my-1'>

@@ -1,32 +1,12 @@
-import React from 'react'
-import YapImage from './YapImage'
-import RapImage from './RapImage'
+import React from "react";
+import PromptsImage from "./PromptsImage";
 
 function AppScreeshots() {
   return (
-    <div className="relative my-20 min-h-screen py-10 ">
-          {/* Centered dotted vertical line */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-0 md:border-l-2 h-[65rem] border-dotted border-gray-300" />
-
-          <div className='p-0 md:mr-[30rem] md:mb-0 mb-40'>
-            <h1 className="text-4xl font-bold mb-10">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
-                first you yap
-              </span>
-            </h1>
-            <YapImage />
-          </div>
-
-          <div className='p-0 pt-10 md:ml-[30rem]'>
-            <h1 className="text-4xl font-bold mb-10">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
-                  then you rap
-                </span>
-            </h1>
-            <RapImage />
-          </div>
-        </div>
-  )
+    <div className="relative mt-28 min-h-screen">
+      <PromptsImage />
+    </div>
+  );
 }
 
-export default AppScreeshots
+export default AppScreeshots;
