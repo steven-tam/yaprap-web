@@ -11,25 +11,25 @@ function Goal() {
             </div>
             <div className='flex justify-between'>
                 <p>+ 1 Amazing Analogy</p>
-                <p>5 mins</p>
+                <p>1:30 mins</p>
             </div>
             <div className='flex justify-between'>
                 <p>+ 1 Super Storytelling</p>
-                <p>5 mins</p>
+                <p>1:30 mins</p>
             </div>
             <div className='flex justify-between'>
                 <p>+ 1 Yapping</p>
-                <p>5 mins</p>
+                <p>2 mins</p>
             </div>
             <div className='flex justify-between'>
                 <p>+ 1 Rapping</p>
-                <p>3:30 mins</p>
+                <p>2 mins</p>
             </div>
         </div>
         <div className='border-b-2' />
         <div className='flex justify-between pt-2'>
             <p>Total</p>
-            <p>20 mins</p>
+            <p>8:30 mins</p>
         </div>
     </div>
   )

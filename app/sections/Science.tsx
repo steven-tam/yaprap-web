@@ -20,7 +20,7 @@ const fadeInAnimationVariant = {
 
 function Science() {
   return (
-    <div className="flex flex-col items-center w-full min-h-[50rem] bg-mildblack" >
+    <div className="flex flex-col items-center w-full min-h-[50rem]" >
       <div className='pt-64'>
         <motion.div 
           variants={fadeInAnimationVariant}

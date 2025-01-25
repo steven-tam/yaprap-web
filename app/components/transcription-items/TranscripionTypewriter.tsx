@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import transcript from '@/assets/transcript-sc.svg'
+import transcript from '@/assets/transcript-sc.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 

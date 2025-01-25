@@ -3,7 +3,7 @@ import PromptsImage from "./PromptsImage";
 
 function AppScreeshots() {
   return (
-    <div className="relative mt-28 min-h-screen">
+    <div className="relative mt-28 mb-28 max-h-screen">
       <PromptsImage />
     </div>
   );

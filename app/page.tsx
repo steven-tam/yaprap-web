@@ -6,6 +6,7 @@ import Footer from "@/sections/Footer";
 import HowItWorks from "./sections/HowItWorks";
 import Science from "./sections/Science";
 import Display from "./sections/Display";
+import Feedback from "./sections/Feedback";
 
 export const metadata = {
   title: "YapRap - Learn Freestyle",
@@ -29,6 +30,7 @@ export default function Home() {
       <HowItWorks />
       <Display />
       <Modes />
+      <Feedback />
       <Transcription />
       <Science />
       <Footer />
