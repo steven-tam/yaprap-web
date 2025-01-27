@@ -28,10 +28,10 @@ export default function Home() {
       <HeaderBar />
       <Landing />
       <HowItWorks />
-      <Display />
-      <Modes />
       <Feedback />
       <Transcription />
+      <Display />
+      <Modes />
       <Science />
       <Footer />
     </div>

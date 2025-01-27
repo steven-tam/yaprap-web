@@ -9,7 +9,7 @@ function SciTextBox() {
             backed by science
           </span>
         </h1>
-        <p className="text-gray-500 p-1 text-2xl">We&apos;ve done extensive research on <span className="font-bold">communication</span> and <span className="font-bold">creativity</span> so you don&apos;t have to</p>
+        <p className="text-gray-500 p-1 text-2xl">We use a combination of research-backed techniques to help you improve your <span className="font-bold">communication</span> and <span className="font-bold">creativity</span>.</p>
       </div>
     )
 }

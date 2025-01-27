@@ -8,7 +8,9 @@ function HowTitle() {
               how it works
           </span>
         </h1>
-        <p className="text-gray-300 p-1 text-2xl">Our system of exercises is <span className="font-bold">simple</span>, <span className="font-bold">flexible</span>, and <span className="font-bold">powerful</span>. Create your own routine or follow our recommendations</p>
+        <p className="text-gray-300 p-1 text-2xl">
+        <span className='font-bold'>Record yourself performing</span> one of our five exercises. Stay consistent with <span className='font-bold'>our recommended routine</span> or create your own. 
+        </p>
       </div>
   )
 }

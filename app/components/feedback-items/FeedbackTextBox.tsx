@@ -9,7 +9,7 @@ function FeedbackTextBox() {
         </span>
       </h1>
       <p className="text-gray-500 p-1 text-2xl">
-        Learn quickly and efficently with <span className="font-bold">personalized feedback</span> for every recording. Track your score and measure your progress
+      <span className='font-bold'>Learn quickly and efficently</span> with <span className="font-bold">personalized feedback</span> for every recording and <span className="font-bold">measure your progress</span>.
       </p>
     </div>
   );

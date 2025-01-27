@@ -10,7 +10,7 @@ function DisplayText() {
         </h1>
         <p className="text-gray-500 p-1 text-2xl">
           Choose from over <span className="font-bold">17,000 prompts</span> across 
-          <span className="font-bold"> six different categories</span> to inspire your yaps and raps
+          <span className="font-bold"> six different categories</span> to inspire your thoughts.
         </p>
     </div>
   )
