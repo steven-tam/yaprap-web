@@ -13,7 +13,7 @@ function Landing() {
                   Free, fun, and effective freestyle
                 </span>
               </h1>
-              <p className="text-gray-500 p-1 text-2xl">Improve your communication. Practice <span className="font-bold">speech and debate</span>, <span className="font-bold">storytelling</span>, <span className="font-bold">impromptu</span>, <span className="font-bold">improvising</span>, <span className="font-bold">singing</span>, and <span className="font-bold">freestyle</span>.</p>
+              <p className="text-gray-500 p-1 text-2xl">Learn freestyle and master communication. The all-in-one utility app for practice <span className="font-bold">speech and debate</span>, <span className="font-bold">storytelling</span>, <span className="font-bold">impromptu</span>, <span className="font-bold">improvising</span>, <span className="font-bold">singing</span>, and <span className="font-bold">freestyle</span>.</p>
             </div>
           </div>
           <ButtonContainer />
