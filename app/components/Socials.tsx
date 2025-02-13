@@ -2,7 +2,7 @@ import React from 'react'
 import TikTokIcon from '@/assets/TikTok-Icon.svg'
 import InstagramIcon from '@/assets/Instagram-Icon.svg'
 import YoutubeIcon from '@/assets/YouTube-Icon.svg'
-import XIcon from '@/assets/X-Icon.svg';
+import XIcon from '@/assets/x-icon.svg';
 import Image from 'next/image'
 
 function Socials() {
@@ -32,7 +32,7 @@ function Socials() {
       
       <a href='https://x.com/yaprapapp' target="_blank" className='flex flex-row items-center justify-center ml-1'>
         <Image src={XIcon} 
-            height={15}
+            height={16}
             alt="X"
         />
         <p className='hover:underline'>/yaprapapp</p>
