@@ -16,7 +16,7 @@ export const metadata = {
   },
   openGraph: {
     title: "YapRap - Learn Freestyle",
-    description: "Learn and master freestyle rap with YapRap. Learn techniques, practice, and improve your communication skills",
+    description: "Learn and master freestyle rap with YapRap. Learn techniques, practice, and improve your communication skills. Use AI feedback on your yaps and raps to learn effectively and efficiently.",
     url: "https://yaprap.net",
     image: "@/assets/yaprap-logo-bone.svg", // Open Graph image for social sharing
   },
