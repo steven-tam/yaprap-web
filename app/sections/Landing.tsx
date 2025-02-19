@@ -6,22 +6,30 @@ function Landing() {
   return (
     <div className="flex flex-col md:flex-row justify-evenly items-center py-24 w-full gap-10">
       <div className="flex items-center flex-col justify-center w-6/12">
-          <div className="flex flex-col items-center justify-center pb-9">
-            <div className="text-center">
-              <h1 className="text-5xl font-bold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
-                  Free, fun, and effective freestyle
-                </span>
-              </h1>
-              <p className="text-gray-500 p-1 text-2xl">Learn freestyle and master communication. The all-in-one utility app for practice <span className="font-bold">speech and debate</span>, <span className="font-bold">storytelling</span>, <span className="font-bold">impromptu</span>, <span className="font-bold">improvising</span>, <span className="font-bold">singing</span>, and <span className="font-bold">freestyle</span>.</p>
-            </div>
+        <div className="flex flex-col items-center justify-center pb-9">
+          <div className="text-center">
+            <h1 className="text-5xl font-bold">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-yellow-400">
+                Free, fun, and effective freestyle
+              </span>
+            </h1>
+            <p className="text-gray-500 p-1 text-2xl">
+              Master the art of freestyling and{" "}
+              <span className="font-bold">
+                sharpen your communication skills
+              </span>
+              . The ultimate utility app to boost your{" "}
+              <span className="font-bold">creativity</span>,
+              <span className="font-bold">storytelling</span>, and{" "}
+              <span className="font-bold">improvisation skills</span>.
+            </p>
           </div>
-          <ButtonContainer />
-    </div>  
-    <HomeScreenshots />
-  </div>
-
-  )
+        </div>
+        <ButtonContainer />
+      </div>
+      <HomeScreenshots />
+    </div>
+  );
 }
 
-export default Landing
+export default Landing;
