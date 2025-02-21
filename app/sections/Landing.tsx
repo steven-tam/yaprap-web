@@ -14,7 +14,7 @@ function Landing() {
               </span>
             </h1>
             <p className="text-gray-500 p-1 text-2xl">
-              Learn freestyle and <span className="font-bold">improve your communication skills</span> with YapRap.<span className="font-bold"> With quick, bite-sized exercises</span>, you can practice anywhere at anytime while elevating your storytelling, creativity, and clarity. 
+              Learn freestyle and <span className="font-bold">improve your communication skills</span> with YapRap. Practice anywhere at anytime with quick, bite-sized exercises while elevating your storytelling and creativity. 
             </p>
           </div>
         </div>
