@@ -14,7 +14,8 @@ function Landing() {
               </span>
             </h1>
             <p className="text-gray-500 p-1 text-2xl">
-            <span className="font-bold">Master the art of yapping and rapping</span> with YapRap—the fun and simple <span className="font-bold">communication utility app</span> for improving <span className="font-bold">articulation</span>, <span className="font-bold">creativity</span>, and <span className="font-bold">conversation skills</span>.
+            Master the art of <span className="font-bold">yapping and rapping</span> with YapRap, the fun and simple <span className="font-bold">communication utility app</span> for improving <span className="font-bold">articulation and creativity</span>.
+
             </p>
           </div>
         </div>
